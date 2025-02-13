@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psicóloga Online - Denise silva</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f3ff;
+color: #4b3c72;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #b8a5d6;
+padding: 20px;
+text-align: center;
+}
+header h1 {
+color: #fff;
+font-size: 2.5em;
+margin: 0;
+}
+section {
+padding: 20px;
+max-width: 800px;
+margin: auto;
+}
+h2 {
+color: #6d4b96;
+}
+p {
+line-height: 1.6;
+}
+.cta {
+background-color: #e4d9f2;
+padding: 20px;
+text-align: center;
+border-radius: 10px;
+margin: 20px 0;
+}
+.cta h2 {
+color: #4b3c72;
+}
+.cta a {
+display: inline-block;
+background-color: #6d4b96;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+margin-top: 10px;
+}
+.cta a:hover {
+background-color: #4b3c72;
+}
+.contact-info {
+background-color: #e4d9f2;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+}
+.contact-info a {
+color: #6d4b96;
+font-weight: bold;
+text-decoration: none;
+}
+.contact-info a:hover {
+text-decoration: underline;
+}
+.contact-form {
+background-color: #e4d9f2;
+padding: 20px;
+border-radius: 10px;
+}
+.contact-form input, .contact-form textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border-radius: 5px;
+border: 1px solid #b8a5d6;
+}
+.contact-form button {
+background-color: #6d4b96;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.contact-form button:hover {
+background-color: #4b3c72;
+}
+footer {
+background-color: #b8a5d6;
+text-align: center;
+padding: 10px;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+footer p {
+color: #fff;
+margin: 0;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Denise silva - Psicóloga Online</h1>
+</header>
+
+<section>
+<h2>Sobre Mim</h2>
+<p>Olá! Eu sou Denise, psicóloga, atuo com atendimento online. Ofereço suporte emocional e psicológico para ajudá-lo a enfrentar os desafios da vida. Meu trabalho é voltado para criar um ambiente seguro e acolhedor, onde você pode explorar seus sentimentos e pensamentos.</p>
+</section>
+
+<!-- Chamado para ação -->
+<section class="cta">
+<h2>Está na hora de cuidar da sua saúde mental!</h2>
+<p>Agende uma sessão e comece sua jornada de autoconhecimento e bem-estar.</p>
+<a href="https://wa.me/seunumerodetelefone" target="_blank">Agendar Consulta</a>
+</section>
+
+<!-- Informações de contato -->
+<section>
+<h2>Entre em Contato</h2>
+<div class="contact-info">
+<p><strong>Email:</strong> <a href="mailto:seuemail@exemplo.com">denisesilva.psicologia@gmail.com</a></p>
+<p><strong>WhatsApp:</strong> <a href="https://wa.me/seunumerodetelefone" target="_blank">(32) 9106-7581</a></p>
+<p><strong>Instagram:</strong> <a href="https://www.instagram.com/seuusuario" target="_blank">@c.sdenise</a></p>
+</div>
+</section>
+
+<section>
+<h2>Envie uma Mensagem</h2>
+<div class="contact-form">
+<form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+<label for="name">Nome:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="message">Mensagem:</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+
+<button type="submit">Enviar</button>
+</form>
+</div>
+</section>
+
+<footer>
+<p>&copy; 2024 Denise silva - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
